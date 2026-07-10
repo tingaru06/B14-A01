@@ -12,9 +12,8 @@
     gap: 20px;
     max-width: 1200px;
     margin: auto;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Arimo", sans-serif;
     padding: 18px 0;
-    
  }
 
  /* logo */
@@ -51,7 +50,7 @@
  }
 
  /* links */
- ul{
+ .nav-ul{
     display: flex;
     gap: 20px;
     list-style: none;
@@ -128,6 +127,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Inter", sans-serif;
 
 }
 
@@ -136,6 +136,7 @@
 .speaker-parent{
     max-width: 1200px;
     margin: auto;
+    font-family: "Inter", sans-serif;
 }
 
 .speaker-sec{
@@ -191,6 +192,41 @@
     height: 460px;
     width: 100%;
 }
+
+.price-sec{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.price-head{
+    text-align: center;
+    padding: 80px; 
+}
+
+.price-head h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0D1B2A;
+}
+
+.price-head p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    color: #575757;
+}
+
+/* price list */
+
+.offers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 40px;
+}
+
+
+
 
 
 
