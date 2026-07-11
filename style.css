@@ -198,23 +198,22 @@
     margin: auto;
 }
 
-.price-head{
-    text-align: center;
-    padding: 80px; 
-}
-
-.price-head h2{
+.price-h{
     font-size: 48px;
     font-weight: 700;
     color: #0D1B2A;
+    text-align: center;
 }
 
-.price-head p{
+.price-p{
     font-size: 16px;
     font-weight: 400;
     padding: 10px;
     color: #575757;
+    text-align: center;
+
 }
+
 
 /* price list */
 
@@ -223,7 +222,93 @@
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     gap: 40px;
+    align-items: center;
+    line-height: 20px;
+    width: 100%;
+    margin-bottom: 120px;
 }
+.offers ul li{
+    padding: 10px;
+}
+
+.offer-f{
+    font-size: 13px;
+    font-weight: 600;
+    color: #888888; 
+}
+
+.offers h2{
+    font-size: 44px;
+    font-weight: 700;
+    color: #0D1B2A;
+    padding-bottom: 8px;
+    
+    
+}
+
+.offers p{
+    font-size:13px;
+    font-weight: 400;
+    color: #888888;
+    padding-bottom: 20px;
+    
+    
+}
+.price-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-radius:12px;
+    border:1px solid #FFFFFF;
+    padding-bottom: 10px;
+    box-shadow:0 10px 30px #E5E7EB;
+    height: 444px;
+    padding: 32px;
+}
+ .price-box ul li{
+    color: #2563EB;
+ }
+
+
+ .price-box ul{
+    padding-left: 20px;
+ }
+ .price-box ul li a{
+    font-size: 14px;
+    font-weight: 300;
+    color: #333333;
+    
+ }
+.price-btn{
+    margin: 20px 0;
+    padding: 11px 107px;
+    border-radius: 8px;
+}
+
+.left{
+    color: #2563EB;
+    border: 2px solid #2563EB;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.middle{
+    color: white;
+    background-color: #2563EB;
+    border: 1px solid #2563EB;
+    font-size: ;
+}
+.right{
+    color: #0D1B2A;
+    border: 2px solid #0D1B2A;
+    font-size: 14px;
+    font-weight: 600;
+}
+ 
+
+
+
 
 
 
