@@ -196,6 +196,7 @@
 .price-sec{
     max-width: 1200px;
     margin: auto;
+    font-family: "Inter", sans-serif;
 }
 
 .price-h{
@@ -226,6 +227,7 @@
     line-height: 20px;
     width: 100%;
     margin-bottom: 120px;
+    
 }
 .offers ul li{
     padding: 10px;
@@ -297,7 +299,8 @@
     color: white;
     background-color: #2563EB;
     border: 1px solid #2563EB;
-    font-size: ;
+    font-size: 14px;
+    font-weight: 600;
 }
 .right{
     color: #0D1B2A;
@@ -305,6 +308,28 @@
     font-size: 14px;
     font-weight: 600;
 }
+
+.box-color{
+    background-color: #0D1B2A;
+}
+
+.mid{
+    color: #93C5FD !important;
+}
+
+.box-color h2{
+    color: white;
+}
+
+.box-color ul li a{
+    color: white; 
+}
+
+.box-color ul li{
+    color: #60A5FA;
+}
+
+
  
 
 
