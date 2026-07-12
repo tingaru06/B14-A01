@@ -293,6 +293,7 @@
     cursor: pointer;
 }
 
+
 .left{
     color: #2563EB;
     border: 2px solid #2563EB;
@@ -305,12 +306,6 @@
     color: white;
     background-color: #2563EB;
     border: 1px solid #2563EB;
-    font-size: 14px;
-    font-weight: 600;
-}
-.right{
-    color: #0D1B2A;
-    border: 2px solid #0D1B2A;
     font-size: 14px;
     font-weight: 600;
 }
@@ -333,6 +328,16 @@
 
 .box-color ul li{
     color: #60A5FA;
+}
+
+.cng{
+    background-color: #F8F9FB;
+}
+.cng-btn{
+    background-color: #F8F9FB;
+    border: 2px solid #0D1B2A;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 /* update section*/
@@ -358,16 +363,18 @@
 }
 
 .updates form input{
-    width: 290px;
+    width: 500px;
     border: none;
     border-radius: 8px;
     font-size: 16px;
-    padding: 20px;
+    padding: 18px 20px;
+    outline: none;
+    
 }
 
 .updates button{
     width: 150px;
-    padding: 20px;
+    padding: 18px 20px;
     border: none;
     width: 150px;
     border-radius: 8px;
@@ -380,6 +387,8 @@
 
 .updates form{
     padding: 20px 0;
+    display: flex;
+    gap: 12px;
 }
 
 
